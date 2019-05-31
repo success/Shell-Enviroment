@@ -1,0 +1,57 @@
+			Shell - Produced by Bradley Juma 
+
+	/*---------------------------------------------------------------*
+	 *                  	DESCRIPTION                               *
+	  *-------------------------------------------------------------*/
+
+	   MyShell is an sh-compatible command line interpreter that executes
+	   commands read from the standard input or from a file.
+
+	 /*---------------------------------------------------------------*
+	*                  	INTERNAL COMMANDS                         *
+ 	*---------------------------------------------------------------*/
+	*	cd	- Changes Directory: Changes the current 	*
+	*  If no arguments, it prints no arguments, if DNE = error. 	*
+	*	clr	- Clears Terminal Screen			* 
+	*								*
+	*	dir	- Briefly lists the directories contents	*	
+	*								*			*	echo	- Writes arguments to standard output		*
+	*								*
+	*	environ	- Displays the current environment variables	*
+	*								*
+ 	*	help	- Displays program user Manual			*
+ 	*  "If no commands entered Type 'help' for more info"		*
+  	*	pause	- Pauses shell operation until "Enter" exec	*
+  	*								*
+  	*	quit	- Quit/Exits the Shell program.			*
+  	*								*
+  	*****************************************************************
+	 /*-------------------------------------------------------------*
+ 	*                  	I/O REDIRECTION                          *
+ 	*---------------------------------------------------------------*/
+  	*	Standard output is possible => dir, environ, echo, help *
+  	*								*
+ 	*	Standard output redirection => ps,ls,ls -l, etc...	* 
+  	*			Syntax					*
+  	*	Standard Output 					*
+ 	*	">"	- cmd argv[1]...argv[N] > test.txt 		*
+ 	*	Case where file exist, needs appending only		*
+  	*	">>"	- cmd argv[1]...argv[N] >> test.txt 		*
+  	*	Input retrieved from a specified file vs std in		*
+  	*	"<"	- cmd argv[1]...argv[N] < test.txt 		*
+  	*	Background execution enabled				*
+  	*	"&"	- cmd argv[1]...argv[N] & test.txt 		*
+  	*    Redirection of stdout of a cmd into stdin of another cmd   *
+  	*	"|"	- cmd argv[1]...argv[N] | test.txt 		*
+  	*								*
+ ******************************************************************************************
+	Myshell program is also capable of taking in commands from a batch-file, and the batch file contains numerous commands which are then Deli-mated by a new line in order to be executed. You may run a batch command on my shell by easily setting it as your argument.
+******************************************************************************************
+					SHELL V.3.0
+******************************************************************************************
+
+
+
+
+        
+        
